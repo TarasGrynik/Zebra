@@ -2,3 +2,13 @@
 @function remy( $pxsize ) {
   @return ( $pxsize / 16 ) + rem;
 }
+
+// function helpers for reducing the amount of color code
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+ 
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}

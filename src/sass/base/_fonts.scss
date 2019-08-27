@@ -1,19 +1,29 @@
-/* montserrat-regular - latin */
+/* Helvetica Neu Bold */
 @font-face {
-  font-family: 'MontserratRegular';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/montserrat/montserrat-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/montserrat/montserrat-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* montserrat-700 - latin */
-@font-face {
-  font-family: 'MontserratBold';
+  font-family: 'HelveticaNeueBold';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/montserrat/montserrat-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/montserrat/montserrat-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('../fonts/Helvetica/HelveticaNeueBd.ttf') format('truetype');
 }
+
+/* Helvetica Neu Regular */
+@font-face {
+  font-family: 'HelveticaNeueRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Helvetica/HelveticaNeue.ttf') format('truetype');
+}
+
+/* josefin-slab-regular - latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/josefin-slab-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Josefin Slab Regular'), local('JosefinSlab-Regular'),
+    url('../fonts/josefin-slab-v10-latin-regular.ttf') format('truetype');
+}
+
 
 /* roboto-300italic - latin */
 @font-face {
