@@ -1,0 +1,9 @@
+.btn-control {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: scaleY(1.1);
+  }
+}

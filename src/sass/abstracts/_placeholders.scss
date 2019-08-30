@@ -1,0 +1,26 @@
+.font-small {
+  font-size: remy(22);
+}
+
+.font-smaller {
+  font-size: remy(20);
+}
+
+.font-smallest {
+  font-size: remy(18);
+}
+
+
+// section categories style for categories of goods
+
+.position-up {
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(color(primary-style-color), .8);
+}
+
+.position-down {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(color(primary-style-color), .5);
+}

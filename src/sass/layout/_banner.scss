@@ -1,0 +1,61 @@
+.banner {
+  position: relative;
+  background: url("../images/banner-img/banner.jpg") no-repeat top center;
+  background-size: cover;
+  padding: 347px 0 154px;
+  text-align: center;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(color(logo-text-color), 0.36);
+  }
+}
+
+.banner__inner-block {
+  position: relative;
+}
+
+.banner__title {
+  position: relative;
+  z-index: 100;
+  max-width: 467px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 29px;
+  text-align: initial;
+  font: 400 remy(22) $primary-font-stack;
+  color: color(secondary-text-color);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.34);
+}
+
+.banner__title-down {
+  font-family: $banner-font;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: remy(116);
+}
+
+.banner__control {
+  position: relative;
+  bottom: -19px;
+}
+
+.banner__control-prev,
+.banner__control-next {
+  position: absolute;
+  bottom: 46px;
+}
+
+.banner__control-prev {
+  left: -84px;
+}
+
+.banner__control-next {
+  right: -98px;
+}
+

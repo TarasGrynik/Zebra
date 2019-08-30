@@ -1,0 +1,56 @@
+.footer {
+  background-color: color(footer-bg-color);
+  padding: 12px 0 26px;
+}
+
+.footer__logo {
+  margin-bottom: 6px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.footer__copy {
+  font-size: 16px;
+  color: rgba(color(secondary-text-color), .5);
+  word-spacing: 6px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-rss {
+  font-size: 39px;
+  color: color(secondary-text-color);
+  transition: .2s linear;
+
+  &:hover {
+    color: color(logo-text-color);
+  }
+}
+
+.footer__socials-link {
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.facebook-img {
+  width: 15px;
+  height: 32px;
+}
+
+.twitter-img {
+  width: 44px;
+  height: 32px;
+}
+
+.rss-img {
+  width: 31px;
+  height: 32px;
+}
