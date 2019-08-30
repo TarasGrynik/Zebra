@@ -1,0 +1,111 @@
+.levis {
+  color: color(levis-text-color);
+  padding-bottom: 63px;
+}
+
+.levis__inner {
+  margin: 0 21px;
+}
+
+.levis__info {
+  display: flex;
+  margin-bottom: 96px;
+  position: relative;
+}
+
+.levis__logo-block {
+  position: relative;
+}
+
+.levis__logo-img {
+  max-width: initial;
+  position: absolute;
+  top: -16px;
+  height: 171px;
+}
+
+.levis__main-info {
+  width: 100%;
+  max-width: 590px;
+  padding: 197px 0 0 32px;
+}
+
+.levis__title {
+  font: remy(50) $title-font-stack;
+  margin-bottom: 11px;
+}
+
+.levis__desc {
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 35px;
+}
+
+.levis__price {
+  font: 600 remy(36) $primary-font-stack;
+  margin: 0 95px 0 10px;
+}
+
+.levis__price--diff {
+  font-family: $title-font-stack;
+}
+
+.levis__price-block {
+  display: flex;
+}
+
+
+.levis__main-img {
+  position: absolute;
+  top: 20px;
+  z-index: -1;
+  right: -58px;
+}
+
+.levis__btn {
+  position: relative;
+  bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  color: color(secondary-text-color);
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  background-color: color(btn-bg-color);
+  padding: 8px 24px;
+  transition: .2s linear;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.levis__basket {
+  color: color(secondary-text-color);
+  font-size: 26px;
+  margin-right: 12px;
+
+  &:hover {
+    color: #06b5a9;
+  }
+}
+
+.levis__goods {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods-item__img {
+  border: 1px solid color(card-border-color);
+  transition: .2s linear;
+  margin-bottom: 10px;
+
+  &:hover {
+    border: 1px solid color(card-hover-border-color);
+  }
+}
+
+.goods-item__text {
+  text-align: center;
+}

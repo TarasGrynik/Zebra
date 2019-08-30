@@ -1,0 +1,165 @@
+.header {
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 1.5px 2.6px 3px rgba(0, 0, 0, 0.31);
+  background-color: rgba(color(secondary-text-color), 0.94);
+}
+
+.header__inner {
+  @include flex-center(sp-between);
+  margin: 0 22px 0 19px;
+}
+
+.logo__link {
+  font: remy(38.05) $title-font-stack;
+  color: color(primary-text-color);
+  text-transform: uppercase;
+
+  &--diff {
+    color: color(logo-text-color);
+  }
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+  margin-right: 100px;
+}
+
+.nav__item {
+  position: relative;
+}
+
+.nav__link {
+  font: remy(18.05)/ 1.1 $primary-font-stack;
+  display: inline-block;
+  padding: 36px 24px 30px;
+  color: color(primary-text-color);
+
+  transition: all .2s linear;
+
+  &:hover {
+    background-color: color(menu-hover-color);
+    color: color(secondary-text-color);
+  }
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.fa-shopping-basket {
+  font-size: 30px;
+  color: #bdbdbd;
+  transition: all .2s linear;
+
+  &:hover {
+    color: color(menu-hover-color);
+  }
+}
+
+.header-actions__price {
+  color: #9d9d9d;
+  font-size: remy(24.05);
+  margin: 0 13px 0 10px;
+}
+
+.fa-caret-down {
+  font-size: 25px;
+  color: #bdbdbd;
+  transition: all .2s linear;
+
+  &:hover {
+    color: color(menu-hover-color);
+  }
+}
+
+.submenu {
+  display: none;
+
+  position: absolute;
+  background-color: color(menu-hover-color);
+  transition: all .2s linear;
+
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: 0;
+
+    width: 347px;
+    height: 24px;
+    background: url(../images/banner-img/toggle-menu-shadow.png) no-repeat top right;
+  }
+}
+
+.submenu__block {
+  display: flex;
+}
+
+.nav__item:hover .submenu {
+  display: block;
+}
+
+.nav__item:hover .nav__link {
+  background-color: color(menu-hover-color);
+  color: color(secondary-text-color);
+}
+
+.submenu__introduction {
+  border-right: 1px solid rgba(#fff, .2);
+}
+
+.submenu__link {
+  display: inline-block;
+  font: remy(38.05) $title-font-stack;
+  color: color(secondary-text-color);
+  text-transform: uppercase;
+  padding: 15px 49px 10px 42px;
+
+  border-top: 1px solid rgba(#fff, .2);
+
+  &--diff {
+    color: #fec8cd;
+  }
+}
+
+.submenu__artefact {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(#fff, .2);
+
+  padding: 53px 10px 54px 28px;
+}
+
+.submenu__shoes-list {
+  padding-top: 10px;
+
+  &--first {
+    border-right: 1px solid rgba(#fff, .2);
+  }
+}
+
+.submenu__shoes-link {
+  display: inline-block;
+  white-space: nowrap;
+  color: color(secondary-text-color);
+  transition: all .2s linear;
+  line-height: 0.6;
+  padding: 13px 76px 12px 39px;
+
+  &:hover {
+    color: color(primary-text-color);
+    background-color: color(secondary-text-color);
+  }
+}

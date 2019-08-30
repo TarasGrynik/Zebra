@@ -1,0 +1,118 @@
+.categories {
+  background: url('../images/categories-img/categories-banner.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.categories__inner {
+  background-color: rgba(#4006B5, .36);
+}
+
+.categories__title {
+  font-size: remy(116);
+  font-family: $categories-title-font;
+  padding-top: 48px;
+  text-align: center;
+  color: color(secondary-text-color);
+  text-transform: uppercase;
+  margin-bottom: 65px;
+}
+
+.categories__products {
+  position: relative;
+  display: flex;
+  padding-bottom: 295px;
+}
+
+.categories__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+  width: 199px;
+  height: 199px;
+  border-radius: 50%;
+}
+
+.categories__link {
+  transition: .2s linear;
+
+  &:hover {
+    .categories__img {
+      transform: scale(1.1);
+    }
+  }
+}
+
+
+.categories__img--shoes {
+  width: 104px;
+  height: 72px;
+}
+
+.categories__item--left {
+  left: -235px;
+  bottom: 117px;
+}
+
+.categories__item--shoes {
+  left: -70px;
+  bottom: 146px;
+}
+
+.categories__item--tshirt {
+  left: 74px;
+  bottom: 72px;
+}
+
+.categories__img--tshirt {
+  width: 114px;
+  height: 110px;
+}
+
+.categories__item--trousers {
+  left: 240px;
+  bottom: 135px;
+}
+
+.categories__img--trousers {
+  width: 61px;
+  height: 120px;
+}
+
+.categories__item--cap {
+  left: 407px;
+  bottom: 108px;
+}
+
+.categories__img--cap {
+  width: 126px;
+  height: 81px;
+}
+
+.categories__item--shoes-second {
+  right: 241px;
+  bottom: 72px;
+}
+
+.categories__item--tshirt-second {
+  right: 94px;
+  bottom: 129px;
+}
+
+.categories__item--accesories {
+  right: -51px;
+  bottom: 45px;
+}
+
+.categories__img--accesories {
+  width: 94px;
+  height: 91px;
+}
+
+.categories__item--right {
+  right: -186px;
+  bottom: 148px;
+}

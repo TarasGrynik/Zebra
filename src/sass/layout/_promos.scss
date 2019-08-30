@@ -1,0 +1,117 @@
+.promos {
+  padding: 39px 0;
+}
+
+.promos__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promos__item {
+  position: relative;
+
+  width: 100%;
+  max-width: 245px;
+  text-transform: uppercase;
+}
+
+.promos-item__title {
+  font: 700 remy(30) $title-font-stack;
+  color: color(secondary-text-color);
+}
+
+.promos-activitee {
+  background-color: color(primary-style-color);
+}
+
+.promos-activitee__title {
+  margin: 16px 0 17px 22px;
+}
+
+.promos-item__desc {
+  font: 700 remy(24) $title-font-stack;
+  color: color(secondary-text-color);
+}
+
+.promos-activitee__desc {
+  max-width: 110px;
+  width: 100%;
+  padding-top: 6px;
+  margin: 0 0 18px 27px;
+  line-height: 0.82;
+}
+
+.promos-item__price {
+  font-family: $title-font-stack;
+  font-size: remy(49);
+}
+
+.price-activitee {
+  color: #12867f;
+  margin: 0 0 13px 29px;
+}
+
+.promos__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.promos-ampersan {
+  background-color: #e4ce9a;
+}
+
+.promos-ampersan__title {
+  max-width: 169px;
+  width: 100%;
+  margin: 11px 0 50px 30px;
+}
+
+.ampersan-price {
+  margin-left: 30px;
+}
+
+.promos-bally {
+  background-color: #ffa7ce;
+}
+
+.promos-bally__title {
+  width: 100%;
+  max-width: 175px;
+  margin: 14px 0 0 33px;
+}
+
+.promos-bally__desc {
+  width: 100%;
+  max-width: 64px;
+  margin: 0 0 10px 36px;
+  line-height: .8;
+}
+
+.bally-price {
+  margin-left: 36px;
+}
+
+.promos-off {
+  background-color: #f2ca66;
+}
+
+.promos-off__title {
+  font-size: 106px;
+  margin-left: 16px;
+  transform: rotateX(180deg);
+}
+
+.promos-off__desc {
+  font-size: remy(64);
+  text-align: center;
+}
+
+.promos-off__name {
+  display: inline-block;
+  background-color: color(secondary-text-color);
+  font: 700 remy(26) $primary-font-stack;
+  color: #f2ca66;
+  padding: 3px 22px;
+}
